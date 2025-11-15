@@ -1,10 +1,30 @@
 import React from 'react'
+import Navbar from './Component/Navbar/Navbar'
+import About from './Component/About/About'
+import Skils from './Component/Skils/Skils'
+import Experience from './Component/Experience/Experience'
+import Work from './Component/Work/Work'
+import Education from './Component/Education/Education'
+
+import Contact from './Component/Contact/Contact'
+import Footer from './Component/Footer/Footer'
 
 const App = () => {
   return (
-    <div><h1 class="text-3xl font-bold underline text-blue-600">
-  Hello Tailwind v3 + Vite!
-</h1></div>
+    <div className="bg-[#050414]">
+       <div className="absolute inset-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:14px_24px] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,#000_70%,transparent_100%)]"></div>
+       
+       <div className="relative pt-1">
+         <Navbar />
+         <About />
+         <Skils />
+         <Experience />
+         <Work />
+         <Education />
+         <Contact />
+         <Footer />
+       </div>
+    </div>
   )
 }
 
