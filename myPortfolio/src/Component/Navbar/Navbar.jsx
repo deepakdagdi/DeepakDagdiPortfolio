@@ -14,13 +14,14 @@ const Navbar = () => {
     const [activeSection ,setActiveSection] = useState("");
     const [isScrolled ,setIsScrolled] = useState(false);
     
-    //chechk scroll and change navbar background
+    // Detect scroll and change navbar background
     useEffect(()=>{
       const handleScroll =()=>{
         setIsScrolled(window.scrollY > 50);
+      }
         window.addEventListener("scroll", handleScroll);
         return ()=> window.removeEventListener("scroll",handleScroll);
-      }
+      
     },[]);
 
 
@@ -28,6 +29,10 @@ const Navbar = () => {
     const handleMenuItemClick =(sectionId)=>{
       setActiveSection(sectionId);
       setIsOpen(false);
+       const section = document.getElementById(sectionId);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
 
     }
   return (
