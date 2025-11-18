@@ -60,12 +60,13 @@ const About = () => {
         {/* Right side */}
      <div className="md:w-1/2 flex justify-center md:justify-end">
   <Tilt
-    glareEnable={true}
-    glareColor="#8245ec"
-    glareMaxOpacity={0.45}
-    perspective={2000}
-    scale={1.05}
-    className="rounded-full"
+    
+            tiltMaxAngleX={20}
+            tiltMaxAngleY={20}
+            perspective={1000}
+            scale={1.05}
+            transitionSpeed={1000}
+            gyroscope={true}
   >
     <div className="w-48 h-48 sm:w-64 sm:h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden border-4 border-purple-700 shadow-[0_10px_20px_rgba(130,69,236,0.5)]">
       <img
