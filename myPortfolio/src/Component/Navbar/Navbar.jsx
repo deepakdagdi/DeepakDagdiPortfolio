@@ -7,8 +7,9 @@ const Navbar = () => {
     {id : "about" , label:"About"},
     {id : "skils" , label:"Skils"},
     {id : "experience" , label:"Experience"},
-    {id : "work" , label:"Work"},
+    {id : "work" , label:"Project"},
     {id : "education" , label:"Education"},
+    {id: "contact" , label:"Contact"}
   ]
     const [isOpen ,setIsOpen] =useState(false);
     const [activeSection ,setActiveSection] = useState("");
