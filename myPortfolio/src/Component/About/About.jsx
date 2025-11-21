@@ -39,14 +39,11 @@ const About = () => {
             />
           </h3>
           {/* {About me paragraph} */}
-          <p className='text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed'>I 
-            am a dedicated and versatile Software Engineer with strong expertise in Java, 
-            Spring Boot, and full-stack development. I have hands-on experience building secure,
-             scalable applications, including REST APIs, MERN-based platforms, and Spring 
-             Security–enabled systems. My projects such as the Doctor Appointment Booking System
-              and URL Shortener demonstrate my ability to design efficient back-end architectures
-               and responsive front-end interfaces. I work confidently across databases like MySQL
-                and PostgreSQL
+          <p className='text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed'>
+            Detail-oriented and hardworking Full Stack Developer with hands-on experience in building scalable web applications
+             using Java (Spring Boot), MERN Stack, Python, C#, ASP.net and React.js. Strong foundation in Java EE, REST APIs, Spring Security,
+             Hibernate, MySQL, and PostgreSQL, with additional skills in Docker, Jenkins, and CI/CD pipelines.
+             A quick learner with a passion for backend development, microservices, and modern web technologies. Eager to contribute technical skills to dynamic engineering teams and grow as a software engineer.
                 </p>
                 <a href="https://drive.google.com/file/d/1sINAislsWUqI99emL4tf9pqLBdF1hTcp/view?usp=sharing"
                  target='_blank'
